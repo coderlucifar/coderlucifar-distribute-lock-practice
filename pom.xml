@@ -11,6 +11,8 @@
     <modules>
         <module>coderlucifar-distribute-lock-demo01</module>
         <module>coderlucifar-distribute-lock-demo02</module>
+        <module>coderlucifar-distribute-lock-demo03</module>
+        <module>coderlucifar-distribute-lock-demo04</module>
     </modules>
 
     <parent>
@@ -70,6 +72,43 @@
                 <artifactId>lombok</artifactId>
                 <version>1.18.22</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>2.2.6.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.12.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>22.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>5.5.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson</artifactId>
+                <version>3.12.5</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>3.14.1</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

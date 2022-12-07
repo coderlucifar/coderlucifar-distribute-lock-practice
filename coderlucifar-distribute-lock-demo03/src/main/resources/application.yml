@@ -1,0 +1,11 @@
+server:
+  port: 10013
+
+spring:
+  redis:
+    sentinel:
+      master: monitor-man   # master书写是使用哨兵监听的那个名称
+      nodes: 192.168.2.102:26379   # 连接的不再是一个具体redis主机,书写的是多个哨兵节点
+#      nodes: 192.168.1.66:26379
+
+
